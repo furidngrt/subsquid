@@ -1,3 +1,5 @@
+<p align="center"><img height="150" height="auto" src="##"></p>
+
 Subsquid is a data network designed for the future of Web3: rapidly and cost-efficiently retrieve blockchain data from 100+ chains using Subsquid’s decentralized data lake and open-source SDK to build billion-user dApps.
 
 ### Install Git :
@@ -60,10 +62,9 @@ sqd init newfolder -t https://github.com/subsquid-quests/single-chain-squid
 cd newfolder
 ```
 
-```
+
 in the Subsquid Web Task Retrieve Key File > Click Get Key > Upload File in Folder `/query-gateway/keys`
 
-```
 
 ```
 sqd up
