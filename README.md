@@ -1,1 +1,1 @@
-# subsquid
+# Subsquid is a data network designed for the future of Web3: rapidly and cost-efficiently retrieve blockchain data from 100+ chains using Subsquid’s decentralized data lake and open-source SDK to build billion-user dApps.
