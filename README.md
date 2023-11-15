@@ -1,4 +1,4 @@
-<p align="center"><img height="50" height="auto" src="https://github.com/furidngrt/subsquid/assets/63885192/5bffb1ea-3f82-4bf7-8035-fd99781c630f)](https://github-production-user-asset-6210df.s3.amazonaws.com/63885192/275373993-5bffb1ea-3f82-4bf7-8035-fd99781c630f.png"></p>
+<p align="center"><img height="100" height="auto" src="https://github.com/furidngrt/subsquid/assets/63885192/5bffb1ea-3f82-4bf7-8035-fd99781c630f)](https://github-production-user-asset-6210df.s3.amazonaws.com/63885192/275373993-5bffb1ea-3f82-4bf7-8035-fd99781c630f.png"></p>
 
  Subsquid is a data network designed for the future of Web3: rapidly and cost-efficiently retrieve blockchain data from 100+ chains using Subsquid’s decentralized data lake and open-source SDK to build billion-user dApps.
 
