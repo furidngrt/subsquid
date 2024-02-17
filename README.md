@@ -91,3 +91,57 @@ wait about 20 minutes for the claim button to appear on the web task.
 ```
 sqd down
 ```
+
+
+## Run Network Test One
+
+```
+sudo apt update
+sudo apt install git
+```
+
+### NodeJs
+
+```
+sudo apt install nodejs -y
+sudo apt install npm -y
+npm install -g npm@10.2.1
+```
+
+### Docker
+
+```
+sudo apt-get install ca-certificates curl gnupg lsb-release -y
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io -y
+```
+
+### install
+
+```
+mkdir global-node-packages
+npm config set prefix ~/global-node-packages
+export PATH="${HOME}/global-node-packages/bin:$PATH"
+```
+```
+cd global-node-packages
+npm install --global @subsquid/cli@latest
+```
+```
+sqd init uniform-load-squid -t https://github.com/subsquid-quests/network-test-one-uniform-load-squid
+cd uniform-load-squid
+npm ci
+```
+
+```
+sqd get-peer-id
+```
+
+```
+sqd up
+sqd build
+sqd run .
+```
+
